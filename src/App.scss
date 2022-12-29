@@ -1,0 +1,24 @@
+body {
+    background-color: #4e064e;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
